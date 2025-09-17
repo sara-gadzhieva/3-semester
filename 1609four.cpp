@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 int a=10;
-
 int main () {
 	int a,b;
 	cout<<"введите два числа "<<endl;
@@ -10,3 +9,4 @@ int main () {
 	cout<<"площадь квадрата со стороной 10 равна "<<::a*::a<<endl;
 	return 0;
 	}
+
