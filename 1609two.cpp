@@ -32,8 +32,8 @@ int main(int argc, char **argv) {
 	else if(fin.fail()){
 		cout<<"файл не корректен"<<endl;
 	}
-	
 	fin.close();
 	return 0;
 	}
+
 
