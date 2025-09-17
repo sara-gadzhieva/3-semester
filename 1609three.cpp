@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 namespace calculator1{
 	int plus(int a,int b){
 		return a+b;
@@ -45,3 +46,4 @@ int main() {
 
 	return 0;
 	}
+
