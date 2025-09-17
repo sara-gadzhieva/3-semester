@@ -27,7 +27,7 @@ int main(int argc, char **argv) {
 		}
 		
 	if(fin.eof()) {
-		cout<<"достигнут конец файла, данные продублированы в файл"<<argv[2]<<endl;
+		cout<<"достигнут конец файла, данные продублированы в файл "<<argv[2]<<endl;
 		}
 	else if(fin.fail()){
 		cout<<"файл не корректен"<<endl;
@@ -35,5 +35,6 @@ int main(int argc, char **argv) {
 	fin.close();
 	return 0;
 	}
+
 
 
