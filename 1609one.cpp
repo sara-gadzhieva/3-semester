@@ -28,7 +28,7 @@ int main() {
 	else if(fin.fail()){
 		cout<<"файл не корректен"<<endl;
 	}
-	
 	fin.close();
 	return 0;
 	}
+
