@@ -28,12 +28,12 @@ class myclass{
 	
 int main() {
 	myclass ob1(8);
-	for(int i=0;i<10;i++) {
+	for(int i=0;i<8;i++) {
 		ob1.put(i,i);
 		}
 	ob1.show();
 	myclass ob2=ob1;
-	for(int i=0;i<10;i++) {
+	for(int i=0;i<8;i++) {
 		ob1.put(i,i);
 		}
 	ob2.show();
